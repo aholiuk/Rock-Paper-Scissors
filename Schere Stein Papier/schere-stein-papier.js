@@ -81,14 +81,14 @@ function playGame(playerMove) {
     } else if (computerMove === 'paper') {
       result = 'Du gewinnst.';
     } else if (computerMove === 'scissors') {
-      result = 'Ziehen.';
+      result = 'Unentschied.';
     }
 
   } else if (playerMove === 'paper') {
     if (computerMove === 'rock') {
       result = 'Du gewinnst.';
     } else if (computerMove === 'paper') {
-      result = 'Ziehen.';
+      result = 'Unentschied.';
     } else if (computerMove === 'scissors') {
       result = 'Du verlierst.';
     }
